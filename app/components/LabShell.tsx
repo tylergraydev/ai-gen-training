@@ -6,6 +6,7 @@ const lessons = [
   { href: '/images', number: '02', label: 'Images' },
   { href: '/video', number: '03', label: 'Video' },
   { href: '/noise', number: '04', label: 'Noise' },
+  { href: '/forward-diffusion', number: '05+', label: 'Diffusion' },
 ];
 
 export function LabShell({
