@@ -9,6 +9,7 @@ const steps = [
   { href: '/conditioning', number: '10', label: 'Text' },
   { href: '/latent', number: '11', label: 'Latents' },
   { href: '/spatial-control', number: '12', label: 'Layout' },
+  { href: '/image-to-image', number: '13', label: 'Img2Img' },
 ];
 
 export function DiffusionNav({ active }: { active: string }) {
