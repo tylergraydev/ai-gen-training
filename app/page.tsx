@@ -44,6 +44,7 @@ const diffusionModules = [
   { href: '/sampling', number: '09', title: 'Sampling loop', description: 'Repeat prediction and update steps until an image emerges.' },
   { href: '/conditioning', number: '10', title: 'Text conditioning', description: 'Watch prompts and guidance steer the denoising direction.' },
   { href: '/latent', number: '11', title: 'Latent diffusion', description: 'Compress pixels, edit learned features, and decode them again.' },
+  { href: '/spatial-control', number: '12', title: 'Spatial conditioning', description: 'Drag labeled regions onto a board and guide where concepts appear.' },
 ];
 
 export default function Home() {

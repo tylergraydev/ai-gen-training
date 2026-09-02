@@ -8,6 +8,7 @@ const steps = [
   { href: '/sampling', number: '09', label: 'Sampling' },
   { href: '/conditioning', number: '10', label: 'Text' },
   { href: '/latent', number: '11', label: 'Latents' },
+  { href: '/spatial-control', number: '12', label: 'Layout' },
 ];
 
 export function DiffusionNav({ active }: { active: string }) {
@@ -17,4 +18,3 @@ export function DiffusionNav({ active }: { active: string }) {
     </nav>
   );
 }
-
