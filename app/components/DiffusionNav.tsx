@@ -10,6 +10,7 @@ const steps = [
   { href: '/latent', number: '11', label: 'Latents' },
   { href: '/spatial-control', number: '12', label: 'Layout' },
   { href: '/image-to-image', number: '13', label: 'Img2Img' },
+  { href: '/inpainting', number: '14', label: 'Inpaint' },
 ];
 
 export function DiffusionNav({ active }: { active: string }) {
