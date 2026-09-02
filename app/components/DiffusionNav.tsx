@@ -11,6 +11,7 @@ const steps = [
   { href: '/spatial-control', number: '12', label: 'Layout' },
   { href: '/image-to-image', number: '13', label: 'Img2Img' },
   { href: '/inpainting', number: '14', label: 'Inpaint' },
+  { href: '/controlnet', number: '15', label: 'ControlNet' },
 ];
 
 export function DiffusionNav({ active }: { active: string }) {
