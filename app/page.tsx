@@ -48,6 +48,7 @@ const diffusionModules = [
   { href: '/image-to-image', number: '13', title: 'Image-to-image', description: 'Add controlled noise to an existing image and decide how much the prompt may redraw.' },
   { href: '/inpainting', number: '14', title: 'Inpainting', description: 'Paint a mask, regenerate one region, and protect everything outside it.' },
   { href: '/controlnet', number: '15', title: 'ControlNet', description: 'Compare edge, depth, pose, and segmentation maps as structural guidance.' },
+  { href: '/variations', number: '16', title: 'Controlled variations', description: 'Change seed, prompt, steps, CFG, sampler, or control strength one at a time.' },
 ];
 
 export default function Home() {

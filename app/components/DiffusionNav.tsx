@@ -12,6 +12,7 @@ const steps = [
   { href: '/image-to-image', number: '13', label: 'Img2Img' },
   { href: '/inpainting', number: '14', label: 'Inpaint' },
   { href: '/controlnet', number: '15', label: 'ControlNet' },
+  { href: '/variations', number: '16', label: 'Variables' },
 ];
 
 export function DiffusionNav({ active }: { active: string }) {
