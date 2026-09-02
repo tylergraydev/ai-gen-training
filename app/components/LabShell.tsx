@@ -7,6 +7,7 @@ const lessons = [
   { href: '/video', number: '03', label: 'Video' },
   { href: '/noise', number: '04', label: 'Noise' },
   { href: '/forward-diffusion', number: '05+', label: 'Diffusion' },
+  { href: '/coming-soon', number: 'NEXT', label: 'Roadmap' },
 ];
 
 export function LabShell({

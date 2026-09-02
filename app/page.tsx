@@ -79,6 +79,14 @@ export default function Home() {
           {diffusionModules.map((module) => <Link href={module.href} key={module.href} className="diffusion-module-card"><span>{module.number}</span><div><h3>{module.title}</h3><p>{module.description}</p></div><b>→</b></Link>)}
         </div>
       </section>
+      <section className="roadmap-home-stage">
+        <div>
+          <span>TRACKS 03 + 04</span>
+          <h2>Where the lab goes next.</h2>
+          <p>Follow one image through model training, then explore VAEs, GANs, vision encoders, upscalers, video, and other model families.</p>
+        </div>
+        <Link href="/coming-soon" className="roadmap-home-link">VIEW THE COURSE ROADMAP <b>→</b></Link>
+      </section>
       <section className="course-principle">
         <span>THE RULE OF THIS LAB</span>
         <p>Every visual has a numerical view. Every number you change should produce something you can see.</p>
